@@ -1,0 +1,24 @@
+*{margin:0;padding:0;font-family:arial}
+nav{width: 100%; background: #cf8513; position: fixed; z-index: 999;}
+nav img {margin-left:10px; width:90%;}
+.kiri{float:left; width: 400px;}.kiri a{font-weight:bold}
+.kanan{float:right; margin-top:18px;}
+nav .kanan li{list-style:none;display:inline}
+nav ul li a{font-size:17px;}
+nav .kanan li a{display:inline-block;padding:18px;color:#fff;}
+nav .kiri li a{display:inline-block;padding:18px;color:#fff;text-transform:uppercase}
+a{text-decoration:none}
+.sidebar{width:20%;background:#5e5c0a;position:fixed;height:100%;padding-top:100px;overflow:hidden;float:left}
+.sidebar ul li{list-style:none;}
+.sidebar ul li a{padding:20px;width:100%;color:#ccc;display:block;transition:0.4s}
+.sidebar ul li a:hover{background:#fff;color:#444}
+.main{float:right;width:80%;}
+.span{background:#3498db;color:#fff;padding:10px;display:inherit;margin-bottom:10px;}
+.isimain{padding:110px 30px 30px 30px;}
+input[type=text],select,textarea{width:400px;margin:10px 0 10px 0;padding:10px;resize:none}
+input[type=date],select,textarea{width:400px;margin:10px 0 10px 0;padding:10px;resize:none}
+
+textarea{height:200px;}
+input[type=submit]{margin:10px 0 10px 0;outline:0;background:#2ecc71;color:#fff;border:0;padding:10px;cursor:pointer}
+input[type=reset]{margin:10px 0 10px 0;outline:0;background:#2ecc71;color:#fff;border:0;padding:10px;cursor:pointer}
+
